@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:animate_do/animate_do.dart';
 import 'package:genshin_app/pages/home_page.dart';
+import 'package:genshin_app/pages/onboarding_screen.dart';
 import 'package:sign_in_button/sign_in_button.dart';
 
 class Login extends StatefulWidget {
@@ -133,7 +134,7 @@ class _LoginState extends State<Login> {
                                 context,
                                 MaterialPageRoute(
                                     builder: (context) =>
-                                        new HomePageGenshin()));
+                                        new OnBoardingScreen()));
                           },
                           child: FadeInUp(
                               duration: Duration(milliseconds: 1900),
@@ -180,50 +181,6 @@ class _LoginState extends State<Login> {
                             ),
                           ],
                         ),
-                        /*FadeInUp(
-                          duration: Duration(milliseconds: 1900),
-                          child: SignInButton(
-                            Buttons.email,
-                            mini: true,
-                            onPressed: () {},
-                          ),
-                        ),
-                        FadeInUp(
-                          duration: Duration(milliseconds: 1900),
-                          child: SignInButton(
-                            Buttons.facebook,
-                            mini: true,
-                            onPressed: () {},
-                          ),
-                        ),*/
-                        /*GestureDetector(
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) =>
-                                        new HomePageGenshin()));
-                          },
-                          child: FadeInUp(
-                              duration: Duration(milliseconds: 1900),
-                              child: Container(
-                                height: 50,
-                                decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(10),
-                                    gradient: const LinearGradient(colors: [
-                                      Color.fromRGBO(143, 148, 251, 1),
-                                      Color.fromRGBO(143, 148, 251, .6),
-                                    ])),
-                                child: const Center(
-                                  child: Text(
-                                    "Iniciar Sesion",
-                                    style: TextStyle(
-                                        color: Colors.white,
-                                        fontWeight: FontWeight.bold),
-                                  ),
-                                ),
-                              )),
-                        ),*/
                         const SizedBox(
                           height: 40,
                         ),
