@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:genshin_app/pages/home_page.dart';
+//import 'package:genshin_app/pages/home_page.dart';
+import 'package:genshin_app/pages/login.dart';
 
 void main() => runApp(const MyApp());
 
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Genshin App',
       theme: ThemeData.dark(),
-      home: const HomePageGenshin(),
+      home: Login(),
+      //home: const HomePageGenshin(),
       debugShowCheckedModeBanner: false,
     );
   }
