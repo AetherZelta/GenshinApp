@@ -28,7 +28,7 @@ class _LoginState extends State<Login> {
                     height: 400,
                     decoration: const BoxDecoration(
                         image: DecorationImage(
-                            image: AssetImage('assets/images/travelers.jpg'),
+                            image: AssetImage('assets/images/travelers2.png'),
                             fit: BoxFit.fitWidth)),
                     child: Stack(
                       children: <Widget>[
