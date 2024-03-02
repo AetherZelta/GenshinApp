@@ -179,6 +179,27 @@ class _LoginState extends State<Login> {
                                 onPressed: () {},
                               ),
                             ),
+                            SizedBox(width: 20),
+                            FadeInUp(
+                                duration: Duration(milliseconds: 1900),
+                                child: Container(
+                                  height: 40,
+                                  width: 150,
+                                  decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(10),
+                                      gradient: const LinearGradient(colors: [
+                                        Color.fromRGBO(143, 148, 251, 1),
+                                        Color.fromRGBO(143, 148, 251, .6),
+                                      ])),
+                                  child: const Center(
+                                    child: Text(
+                                      "Registrar",
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold),
+                                    ),
+                                  ),
+                                )),
                           ],
                         ),
                         const SizedBox(
@@ -197,7 +218,7 @@ class _LoginState extends State<Login> {
                                               new HomePageGenshin()));
                                 },
                                 child: Text(
-                                  "Crear Cuenta",
+                                  "No recuerdo mi contraseña",
                                   style: TextStyle(
                                       color: Color.fromRGBO(143, 148, 251, 1)),
                                 ),

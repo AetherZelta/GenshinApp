@@ -123,9 +123,9 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                             padding:
                                 EdgeInsets.only(top: 40, left: 10, right: 10),
                             child: Text(
-                              'Si haz comenzado tu viaje por Teyvat hace poco ' +
-                                  'la siguiente aplicacion te dara los detalles necesarios para que conozcas mejor ' +
-                                  'los detalles del mundo que exploraras.',
+                              'En esta aplicacion se te daran detalles de personajes ' +
+                                  'que conoceras en tu viaje, estos podran unirse a ti en tu aventura ' +
+                                  'y necesitaras conocer como funcionan para armar las mejores combinaciones',
                               style: TextStyle(
                                 fontWeight: FontWeight.w500,
                                 color: Colors.white,
@@ -169,7 +169,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                             ),
                           ),
                           const Text(
-                            'Teyvat',
+                            'Bienvenido a Teyvat',
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
                               color: Colors.white,
@@ -177,9 +177,12 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                             ),
                           ),
                           const Padding(
-                            padding: EdgeInsets.only(top: 40),
+                            padding:
+                                EdgeInsets.only(top: 40, left: 10, right: 10),
                             child: Text(
-                              'Preparate para tu aventura',
+                              'Bienvenido al mundo de Genshin Impact ' +
+                                  'esperamos que con esta guia seas capaz de prosperar ' +
+                                  'y disfrutar del viaje junto a miles de jugadores',
                               style: TextStyle(
                                 fontWeight: FontWeight.w500,
                                 color: Colors.white,
@@ -211,7 +214,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                     elevation: 6,
                     borderRadius: BorderRadius.circular(10),
                     child: const Text(
-                      'saltar',
+                      'Saltar',
                       style: TextStyle(
                         color: Colors.black,
                       ),
@@ -237,7 +240,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                           elevation: 6,
                           borderRadius: BorderRadius.circular(10),
                           child: const Text(
-                            'hecho',
+                            'Hecho',
                             style: TextStyle(
                               color: Colors.black,
                             ),
@@ -257,7 +260,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                           elevation: 6,
                           borderRadius: BorderRadius.circular(10),
                           child: const Text(
-                            'siguiente',
+                            'Siguiente',
                             style: TextStyle(
                               color: Colors.black,
                             ),
